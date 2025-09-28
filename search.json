@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "slides.html#cette-semaine",
+    "href": "slides.html#cette-semaine",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Cette semaine:",
+    "text": "Cette semaine:\n\nMardi 30: séance Q/R pour les PHARMA et BIOMED, sur les matières scientifiques.\nMercredi 1: séance thématique sur les prérequis pour les BIOMED."
+  },
+  {
+    "objectID": "slides.html#a",
+    "href": "slides.html#a",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.3) A",
+    "text": "1.3) A\nEnoncé: Un arc de cercle possède un angle au centre de \\(80^\\circ\\) et un rayon de \\(4,0\\)m. Que vaut la longueur de cet arc?\nRéponse: Soit vous appliquez la formule vue à la séance précédente, soit vous appliquez une règle de trois.\n\\(360^\\circ\\) correspond à une longuer de \\(8\\pi\\)m. Donc puisque \\(80=\\dfrac{2}{9}360\\), la longueur recherchée est\n\\[\n\\dfrac{2}{9}8\\pi=\\dfrac{16}{9}\\pi\\text{m}\n\\]"
+  },
+  {
+    "objectID": "slides.html#b",
+    "href": "slides.html#b",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.3) B",
+    "text": "1.3) B\nEnoncé: Un secteur circulaire ayant un angle au centre de \\(140^\\circ\\) a été découpé dans une tôle d’acier. Le rayon de ce secteur est de \\(75,0\\)cm. Quelle est la surface de ce secteur?\nRéponse: Le même raisonnement est d’application ici. La réponse finale est:\n\\[\n\\dfrac{7}{18}75^2\\pi=\\dfrac{4378}{2}\\pi\\text{cm}^2\n\\]"
+  },
+  {
+    "objectID": "slides.html#a-1",
+    "href": "slides.html#a-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.4) A",
+    "text": "1.4) A\nEnoncé: Déterminez la hauteur d’un arbre vertical dont l’ombre sur un sol horizontal s’allonge de \\(12,00\\)m lorsque le soleil passe de \\(52^\\circ\\) à \\(30^\\circ\\) au-dessus de l’horizon.\nRéponse: On visualise d’abord:"
+  },
+  {
+    "objectID": "slides.html#on-complète-la-figure-on-nomme",
+    "href": "slides.html#on-complète-la-figure-on-nomme",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "On complète la figure, on nomme",
+    "text": "On complète la figure, on nomme"
+  },
+  {
+    "objectID": "slides.html#résolution-1-via-la-loi-des-sinus",
+    "href": "slides.html#résolution-1-via-la-loi-des-sinus",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Résolution 1: via la loi des sinus",
+    "text": "Résolution 1: via la loi des sinus\n\n\nOn trouve \\([BC]\\) avec la loi des sinus:\n\n\\[\n\\frac{[BC]}{\\sin(30)}=\\frac{[CD]}{\\sin{22}}\n\\]\nDonc \\([BC]=\\dfrac{[CD]\\sin(30)}{\\sin{22}}=\\dfrac{12\\dfrac{1}{2}}{\\sin(22)}=\\dfrac{6}{\\sin(22)}\\simeq 16,0168\\)"
+  },
+  {
+    "objectID": "slides.html#résolution-1-via-la-loi-des-sinus-1",
+    "href": "slides.html#résolution-1-via-la-loi-des-sinus-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Résolution 1: via la loi des sinus",
+    "text": "Résolution 1: via la loi des sinus\n\n\nOn trouve \\(h\\) avec SOHCAHTOA:\n\nDans le triangle rectangle \\(ABC\\), \\(\\cos(38)=\\dfrac{h}{[BC]}\\).\nDonc \\(h=\\cos(38)[BC]=\\dfrac{6\\cos(38)}{\\sin(22)}\\simeq 12,31\\) m."
+  },
+  {
+    "objectID": "slides.html#résolution-2-via-sohcahtoa",
+    "href": "slides.html#résolution-2-via-sohcahtoa",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Résolution 2: via SOHCAHTOA",
+    "text": "Résolution 2: via SOHCAHTOA\n\n\nDans \\(ABC\\), \\(\\tan(38)=\\dfrac{[AC]}{h}\\). Donc \\([AC]=h{\\tan(38)}\\)\nDans \\(ABD\\), \\(\\tan(60)=\\dfrac{[AC]+12}{h}\\). Donc \\([AC]+12=h{\\tan(60)}\\)\n\nDonc \\(12=[AC]+12-[AC]=h{\\tan(60)}-{h}{\\tan(38)}\\).\nDonc \\(h=\\dfrac{12}{\\tan(60)-\\tan(38)}\\simeq 12,31\\) m."
+  },
+  {
+    "objectID": "slides.html#c-1",
+    "href": "slides.html#c-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.5) C 1)",
+    "text": "1.5) C 1)\nEnoncé: Résous: \\({2\\sin(3x) -\\sqrt{2}=0}\\).\nRéponse: (\\(k\\in\\mathbb{Z}\\)) \\[\n\\begin{align*}\n2\\sin(3x) -\\sqrt{2}=0 &\\Leftrightarrow& 2\\sin(3x) =\\sqrt{2}\\\\\n&\\Leftrightarrow& \\sin(3x) =\\frac{\\sqrt{2}}{2}\\\\\n&\\Leftrightarrow& 3x=\\dfrac{\\pi}{4}+2k\\pi\\text{ ou }3x=\\dfrac{3\\pi}{4}+2k\\pi\\\\\n&\\Leftrightarrow& x=\\dfrac{\\pi}{12}+\\frac{2k\\pi}{3}\\text{ ou }3x=\\dfrac{\\pi}{4}+\\frac{2k\\pi}{3}\n\\end{align*}\n\\]\nDonc \\(S=\\left\\{\\dfrac{\\pi}{12}+\\dfrac{2k\\pi}{3}\\left.,\\dfrac{\\pi}{4}+\\dfrac{2k\\pi}{3}\\right|k\\in\\mathbb{Z}\\right\\}\\)"
+  },
+  {
+    "objectID": "slides.html#a-3-résous-frac3x-52x1-0.",
+    "href": "slides.html#a-3-résous-frac3x-52x1-0.",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.1 A) 3 Résous: \\({\\frac{3x-5}{2x+1} = 0}\\).",
+    "text": "2.1 A) 3 Résous: \\({\\frac{3x-5}{2x+1} = 0}\\).\nRéponse:\n\nOn commence par les conditions d’existence (C.E.): \\(2x+1\\neq 0\\), ce qui revient à dire \\(x\\neq -1/2\\)\nOn résout l’équation: une fraction est nulle lorsque son numérateur est nul et son dénominateur non nul. Donc, sous la C.E.: \\[\n\\begin{align*}\n\\frac{3x-5}{2x+1} = 0 &\\Leftrightarrow&  {3x-5} = 0\\\\\n&\\Leftrightarrow& x=\\frac{5}{3}\n\\end{align*}\n\\]\n\nDonc, \\(S=\\left\\{\\dfrac{5}{3}\\right\\}\\)."
+  },
+  {
+    "objectID": "slides.html#b-4",
+    "href": "slides.html#b-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.1 B) 4",
+    "text": "2.1 B) 4\nEnoncé: Résous: \\({(4x-16)(5x+1) &lt; 0}\\).\nRéponse:\n\nOn dresse le tableau de signes du membre de gauche:\n\n\n\nSur base du TDS, on résout l’équation: (on y cherche les \\(-\\))\n\n\\(S=\\left]\\dfrac{-1}{5};4\\right[\\)"
+  },
+  {
+    "objectID": "slides.html#c-4",
+    "href": "slides.html#c-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.1 C) 4",
+    "text": "2.1 C) 4\nEnoncé: Résous: \\({2x^2-7=4x}\\)\nRéponse: \\[\n\\begin{align*}\n2x^2-7=4x  &\\Leftrightarrow&  2x^2-7-4x=0\\\\\n&\\Leftrightarrow& 2x^2-4x-7=0\n\\end{align*}\n\\]\nOn a \\(\\Delta=(-4)^2-4\\cdot 2\\cdot (-7)=16+56=72=2\\cdot 36\\).\nDonc l’équation a deux solutions: \\[\nx_{1,2}=\\dfrac{-(-4)\\pm\\sqrt{72}}{2\\cdot 2}=\\dfrac{4\\pm 6\\sqrt{2}}{4}=1\\pm\\dfrac{3\\sqrt{2}}{2}.\n\\]\nDonc, \\(S=\\left\\{1\\pm\\dfrac{3\\sqrt{2}}{2}\\right\\}\\)."
+  },
+  {
+    "objectID": "slides.html#a-2",
+    "href": "slides.html#a-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.2 A) 2",
+    "text": "2.2 A) 2\nEnoncé: Résous: \\({\\begin{cases}\n3x+4y=19\\\\\n-6x+y =-2\n\\end{cases} }\\)\nRéponse: Ici je propose la résolution par élimination de Gauss (au lieu de la méthode de substitution) \\[\n\\begin{align*}\n{\\begin{cases}\n3x+4y=19\\\\\n-6x+y =-2\n\\end{cases} } &\\Leftrightarrow&  {\\begin{cases}\n-6x-8y=-38\\\\\n-6x+y =-2\n\\end{cases} }\n\\\\\n&\\Leftrightarrow&  {\\begin{cases}\n-6x-8y=-38\\\\\n0x+9y =36\n\\end{cases} }\\\\\n&\\Leftrightarrow&  {\\begin{cases}\n-6x-8y=-38\\\\\ny =4\n\\end{cases} }\\\\\n&\\Leftrightarrow&  {\\begin{cases}\n-6x-32=-38\\\\\ny =4\n\\end{cases} }\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "slides.html#section",
+    "href": "slides.html#section",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "",
+    "text": "\\[\n\\begin{align*}\n{\\begin{cases}\n3x+4y=19\\\\\n-6x+y =-2\n\\end{cases} } &\\Leftrightarrow&  {\\begin{cases}\n-6x-8y=-38\\\\\n-6x+y =-2\n\\end{cases} }\n\\\\\n... && ...\\\\\n&\\Leftrightarrow&  {\\begin{cases}\n-6x-32=-38\\\\\ny =4\n\\end{cases} }\\\\\n&\\Leftrightarrow&  {\\begin{cases}\nx=1\\\\\ny =4\n\\end{cases} }\n\\end{align*}\n\\] Donc \\(S=\\{(1,4)\\}\\)"
+  },
+  {
+    "objectID": "slides.html#rappels",
+    "href": "slides.html#rappels",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Rappels",
+    "text": "Rappels\nDéfinition Un vecteur est un segment orienté (= une flèche qui relie deux points).\nEtant donnés deux points \\(A\\) et \\(B\\), on note \\(\\overrightarrow{AB}\\) le vecteur allant de \\(A\\) vers \\(B\\). Le point \\(A\\) est l’origine et le point \\(B\\) est l’extrémité\nUn vecteur est nul s’il est de la forme \\(\\overrightarrow{AA}\\)."
+  },
+  {
+    "objectID": "slides.html#caractéristiques-dun-vecteur",
+    "href": "slides.html#caractéristiques-dun-vecteur",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Caractéristiques d’un vecteur",
+    "text": "Caractéristiques d’un vecteur\nUn vecteur non nul \\(\\overrightarrow{AB}\\) est caractérisé par:\n\nsa direction: celle de la droite \\(AB\\)\nson sens: de \\(A\\) vers \\(B\\)\nsa norme: la longueur du segment \\([AB]\\).\n\nOn dira que deux vecteurs non nuls sont égaux s’ils ont\n\nla même direction: visuellement, ils sont parallèles\nle même sens: les flèches ont le même sens\nla même normes: les segments sont de même longueur"
+  },
+  {
+    "objectID": "slides.html#composantes",
+    "href": "slides.html#composantes",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Composantes",
+    "text": "Composantes\nEtant donnés \\(A=(x_A,y_A)\\) et \\(B=(x_B,y_B)\\) les composantes de \\(\\overrightarrow{AB}\\) sont:\n\\[\n\\overrightarrow{AB}=(x_B-x_A,y_B-y_A).\n\\]"
+  },
+  {
+    "objectID": "slides.html#opérations-sur-les-vecteurs",
+    "href": "slides.html#opérations-sur-les-vecteurs",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.1 Opérations sur les vecteurs",
+    "text": "1.1 Opérations sur les vecteurs"
+  },
+  {
+    "objectID": "slides.html#rappels-1",
+    "href": "slides.html#rappels-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Rappels",
+    "text": "Rappels\nLa somme de deux vecteurs \\(\\overrightarrow{u}=(u_1,u_2)\\) et \\(\\overrightarrow{v}=(v_1,v_2)\\) se fait\n\nanalytiquement (avec les composantes): on additionne les composantes entre elles: \\(\\overrightarrow{u}+\\overrightarrow{v}=(u_1+v_1,u_2+v_2)\\)"
+  },
+  {
+    "objectID": "slides.html#section-1",
+    "href": "slides.html#section-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "",
+    "text": "géométriquement (visuellement):\n\n\n\nLoi de Chasle\n\nLoi du parallélogramme"
+  },
+  {
+    "objectID": "slides.html#multiple",
+    "href": "slides.html#multiple",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Multiple",
+    "text": "Multiple\nMultiplier un vecteur non nul \\(\\overrightarrow{u}=(u_1,u_2)\\) par un réel non nul \\(a\\) revient à construire un vecteur \\(a\\overrightarrow{u}\\) dont les caractéristiques sont les suivantes:\n\ndirection: la même que \\(\\overrightarrow{u}\\)\nsens: le même que \\(\\overrightarrow{u}\\) si \\(a&gt;0\\) et l’opposé si \\(a&lt;0\\)\nnorme: \\(|a|\\lVert\\overrightarrow{u}\\rVert\\).\n\nDe plus, \\(0\\overrightarrow{u}=\\overrightarrow{0}\\) et \\(a\\overrightarrow{0}=\\overrightarrow{0}\\).\nAnalytiquement \\(a\\overrightarrow{u}=(au_1,au_2)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-a",
+    "href": "slides.html#exercice-a",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nConstruisez un représentant de la somme des vecteurs (\\(\\overrightarrow{u}\\), \\(\\overrightarrow{v}\\), \\(\\overrightarrow{w}\\) et \\(\\overrightarrow{t}\\)) dessinés sur les quadrillages donnés."
+  },
+  {
+    "objectID": "slides.html#exercice-a-1",
+    "href": "slides.html#exercice-a-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nConstruisez un représentant de la somme des vecteurs (\\(\\overrightarrow{u}\\), \\(\\overrightarrow{v}\\), \\(\\overrightarrow{w}\\) et \\(\\overrightarrow{t}\\)) dessinés sur les quadrillages donnés."
+  },
+  {
+    "objectID": "slides.html#exercice-a-2",
+    "href": "slides.html#exercice-a-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nConstruisez un représentant de la somme des vecteurs (\\(\\overrightarrow{u}\\), \\(\\overrightarrow{v}\\), \\(\\overrightarrow{w}\\) et \\(\\overrightarrow{t}\\)) dessinés sur les quadrillages donnés."
+  },
+  {
+    "objectID": "slides.html#exercice-b",
+    "href": "slides.html#exercice-b",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice B)",
+    "text": "Exercice B)\nSoient \\(A\\), \\(B\\) et \\(C\\) trois points du plan muni d’un repère orthonormé. Déterminez les composantes des vecteurs \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AC}\\) et \\(\\overrightarrow{BC}\\) ainsi que leurs normes si\n\n\\(A=(2;1)\\), \\(B=(5;3)\\) et \\(C=(1;4)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-b-1",
+    "href": "slides.html#exercice-b-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice B)",
+    "text": "Exercice B)\nSoient \\(A\\), \\(B\\) et \\(C\\) trois points du plan muni d’un repère orthonormé. Déterminez les composantes des vecteurs \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AC}\\) et \\(\\overrightarrow{BC}\\) ainsi que leurs normes si\n\n\\(A=(2;0;1)\\), \\(B=(-1;5;3)\\) et \\(C=(7;1;4)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-c",
+    "href": "slides.html#exercice-c",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice C)",
+    "text": "Exercice C)\nSimplifiez les expressions suivantes au maximum (les lettres représentent des points du plan ou de l’espace) :\n\n\\(\\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CD}\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-d",
+    "href": "slides.html#exercice-d",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice D)",
+    "text": "Exercice D)\nConsidérons \\(A=(-2;1)\\), \\(B=(5;2)\\), \\(C=(4;2)\\), \\(D=(-3;-1)\\) et \\(E=(0;2)\\). Déterminez les composantes des vecteurs suivants :\n\n\\(2 \\overrightarrow{AB}\\)\n\\(2 \\overrightarrow{CB} + 3 \\overrightarrow{AB}\\)\n\\(3 \\overrightarrow{BD} -2 \\overrightarrow{AE} + \\frac{1}{2}\\overrightarrow{CA}\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-e",
+    "href": "slides.html#exercice-e",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice E)",
+    "text": "Exercice E)\nConsidérons le plan muni d’un repère. Calculez les composantes de \\(\\overrightarrow{u} + \\overrightarrow{v}\\) et \\(a \\overrightarrow{u}\\) lorsque\n\n\\(\\overrightarrow{u} = (3;0;2)\\), \\(\\overrightarrow{v} = (-2;1;4)\\) et \\(a = -3\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-f",
+    "href": "slides.html#exercice-f",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice F)",
+    "text": "Exercice F)\nConsidérons le plan ou l’espace muni d’un repère. Déterminez le milieu des segments \\([AB]\\) si\n\n\\(A=(-1;1)\\) et \\(B=(2;3)\\)"
+  },
+  {
+    "objectID": "slides.html#produits-scalaire-et-vectoriel",
+    "href": "slides.html#produits-scalaire-et-vectoriel",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.2 Produits scalaire et vectoriel",
+    "text": "1.2 Produits scalaire et vectoriel"
+  },
+  {
+    "objectID": "slides.html#rappels-2",
+    "href": "slides.html#rappels-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Rappels",
+    "text": "Rappels\nSoit \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs:\n\nProduit scalaire: \\(\\overrightarrow{u}\\cdot\\overrightarrow{v}=\\lVert\\overrightarrow{u}\\rVert\\lVert\\overrightarrow{v}\\rVert\\cos(\\theta)\\), où \\(\\theta\\) est l’angle entre les deux vecteurs. (Définition indépendante du nombre de composantes)\nEn 2D: \\(\\overrightarrow{u}\\cdot\\overrightarrow{v}=u_1v_1+u_2v_2\\), où \\(\\overrightarrow{u}=(u_1,u_2)\\) et \\(\\overrightarrow{v}=(v_1,v_2)\\).\nEn 2D: \\(\\lVert\\overrightarrow{u}\\rVert=\\sqrt{u_1^2+u_2^2}\\).\nEn 3D: \\(\\overrightarrow{u}\\cdot\\overrightarrow{v}=u_1v_1+u_2v_2+u_3v_3\\), où \\(\\overrightarrow{u}=(u_1,u_2,u_3)\\) et \\(\\overrightarrow{v}=(v_1,v_2,v_3)\\).\nEn 3D: \\(\\lVert\\overrightarrow{u}\\rVert=\\sqrt{u_1^2+u_2^2+u_3^2}\\).\nCes liens entre composantes, norme et angle permettent de résoudre plein d’exercices."
+  },
+  {
+    "objectID": "slides.html#exercice-a-3",
+    "href": "slides.html#exercice-a-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nSoient \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs du plan ou de l’espace muni d’un repère orthonormé où \\(\\theta\\) est l’angle entre \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\). Calculez \\(\\overrightarrow{u} \\cdot \\overrightarrow{v}\\) si\n\n\\(\\| \\overrightarrow{u} \\| = 3\\), \\(\\|\\overrightarrow{v} \\| = 5\\) et \\(\\theta = 60^\\circ\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-a-4",
+    "href": "slides.html#exercice-a-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nSoient \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs du plan ou de l’espace muni d’un repère orthonormé où \\(\\theta\\) est l’angle entre \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\). Calculez \\(\\overrightarrow{u} \\cdot \\overrightarrow{v}\\) si\n\n\\({\\| \\overrightarrow{u} \\| = \\frac{1}{\\sqrt{3}}}\\), \\({\\| \\overrightarrow{v} \\|= 3}\\) et \\({\\theta = \\frac{5\\pi}{6}}\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-b-2",
+    "href": "slides.html#exercice-b-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice B)",
+    "text": "Exercice B)\nTravail à domicile: calculez les composantes puis appliquez les formules."
+  },
+  {
+    "objectID": "slides.html#rappel-produit-vectoriel",
+    "href": "slides.html#rappel-produit-vectoriel",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Rappel: produit vectoriel",
+    "text": "Rappel: produit vectoriel\nSoit \\(\\overrightarrow{u}=(u_1,u_2,u_3)\\) et \\(\\overrightarrow{v}=(v_1,v_2,v_3)\\). Le produit vectoriel de ces deux vecteurs \\(\\overrightarrow{u}\\wedge \\overrightarrow{v}\\) a les composantes suivantes:\n\\[\n\\overrightarrow{u}\\wedge \\overrightarrow{v} =  \\begin{vmatrix}\n\\overrightarrow{i} & \\overrightarrow{j} & \\overrightarrow{k} \\\\\nu_1 & u_2 & u_3 \\\\\nv_1 & v_2 & v_3\n\\end{vmatrix}  \n\\]\nCe vecteur est perpendiculaire à \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) et est de norme \\(\\| \\overrightarrow{u}\\wedge \\overrightarrow{v} \\|=\\lVert\\overrightarrow{u}\\rVert\\lVert\\overrightarrow{v}\\rVert\\sin(\\theta)\\). Son sens est donné par la règle de la main droite."
+  },
+  {
+    "objectID": "slides.html#rappel-produit-vectoriel-1",
+    "href": "slides.html#rappel-produit-vectoriel-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Rappel: produit vectoriel",
+    "text": "Rappel: produit vectoriel"
+  },
+  {
+    "objectID": "slides.html#exercice-c-1",
+    "href": "slides.html#exercice-c-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice C)",
+    "text": "Exercice C)\nSoient \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs de l’espace muni d’un repère orthonormé où \\(\\theta\\) est l’angle entre \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\). Déterminez la norme de \\(\\overrightarrow{u}\\) et de \\(\\overrightarrow{v}\\), leur produit scalaire, leur produit vectoriel et l’amplitude de \\(\\theta\\) si\n\n\\(\\overrightarrow{u} =(2;1;1)\\) et \\({\\overrightarrow{v} =(1;2;1) }\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-c-2",
+    "href": "slides.html#exercice-c-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice C)",
+    "text": "Exercice C)\nSoient \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs de l’espace muni d’un repère orthonormé où \\(\\theta\\) est l’angle entre \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\). Déterminez la norme de \\(\\overrightarrow{u}\\) et de \\(\\overrightarrow{v}\\), leur produit scalaire, leur produit vectoriel et l’amplitude de \\(\\theta\\) si\n\n\\({\\overrightarrow{u} =(2;-1;2) }\\) et \\({\\overrightarrow{v} =(-3;7;1) }\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-d-1",
+    "href": "slides.html#exercice-d-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice D)",
+    "text": "Exercice D)\nConsidérons les vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) tels que \\(\\|\\overrightarrow{u} \\| = 5\\) , \\(\\|\\overrightarrow{v} \\| = 2\\) et \\(\\overrightarrow{u} \\cdot \\overrightarrow{v} = 10\\). Montrez que la norme du vecteur \\(\\overrightarrow{w_1}  = 2\\overrightarrow{u}+3\\overrightarrow{v}\\) est égale à \\(16\\) et que celle du \\(\\overrightarrow{w_2}=2\\overrightarrow{u} -3\\overrightarrow{v}\\) est égale à \\(4\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-d-2",
+    "href": "slides.html#exercice-d-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice D)",
+    "text": "Exercice D)"
+  },
+  {
+    "objectID": "slides.html#exercice-e-1",
+    "href": "slides.html#exercice-e-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice E)",
+    "text": "Exercice E)\nConsidérons les vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) tels que \\(\\|\\overrightarrow{u} \\| = 1\\) , \\(\\|\\overrightarrow{v} \\| = 3\\) et \\(\\overrightarrow{u} \\cdot \\overrightarrow{v} = -2\\). Montrez que la norme du vecteur \\(\\overrightarrow{w_1}  = 2\\overrightarrow{u}+3\\overrightarrow{v}\\) est égale à \\(\\sqrt{61}\\) et que celle du \\(\\overrightarrow{w_2}=2\\overrightarrow{u} -3\\overrightarrow{v}\\) est égale à \\(\\sqrt{109}\\)."
+  },
+  {
+    "objectID": "slides.html#exercice-e-2",
+    "href": "slides.html#exercice-e-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice E)",
+    "text": "Exercice E)"
+  },
+  {
+    "objectID": "slides.html#exercice-f-1",
+    "href": "slides.html#exercice-f-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice F)",
+    "text": "Exercice F)\nExercice supplémentaire"
+  },
+  {
+    "objectID": "slides.html#exercice-g",
+    "href": "slides.html#exercice-g",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice G)",
+    "text": "Exercice G)\nSoient \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) deux vecteurs de l’espace muni d’un repère orthonormé. Calculez, via les composantes, \\((\\overrightarrow{u} \\land \\overrightarrow{v}) \\cdot \\overrightarrow{u}\\) et \\((\\overrightarrow{u} \\land \\overrightarrow{v}) \\cdot \\overrightarrow{v}\\). Qu’en conclure sur le vecteur \\(\\overrightarrow{u} \\land \\overrightarrow{v}\\) par rapport aux vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\)?"
+  },
+  {
+    "objectID": "slides.html#décomposition",
+    "href": "slides.html#décomposition",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.3 Décomposition",
+    "text": "1.3 Décomposition"
+  },
+  {
+    "objectID": "slides.html#exercice-a-5",
+    "href": "slides.html#exercice-a-5",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-6",
+    "href": "slides.html#exercice-a-6",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-7",
+    "href": "slides.html#exercice-a-7",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-8",
+    "href": "slides.html#exercice-a-8",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-c-3",
+    "href": "slides.html#exercice-c-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice C)",
+    "text": "Exercice C)\nOn donne les vecteurs suivants \\(\\overrightarrow{u}=( 73~123~416;146~246~832)\\) et \\(\\overrightarrow{v}=(-79~035~264;39~517~632)\\), deux vecteurs du plan muni d’un repère orthonormé. utiliser de calculatrice, démontrez que les vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) sont orthogonaux."
+  }
+]
