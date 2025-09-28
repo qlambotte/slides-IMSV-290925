@@ -24,7 +24,8 @@ format:
 
 ##  Liens:
 - Vers les slides: QR-code 
-![](figures/qr1.png){fig-align="center" width=100%}
+
+![](figures/qr1.png){fig-align="center" width=40%}
 
 - Vers le pdf (après le scan du QR-code): [Ouvrir le PDF](assets/slides.pdf){target="_blank"}
 
