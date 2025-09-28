@@ -23,22 +23,11 @@ format:
 :::
 
 ##  Liens:
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
+- Vers les slides: QR-code 
 ![](figures/qr1.png){fig-align="center" width=100%}
 
+- Vers le pdf (après le scan du QR-code): [Ouvrir le PDF](assets/slides.pdf){target="_blank"}
 
-:::
-
-::: {.column width="40%"}
-![](figures/qr1.png){fig-align="center" width=100%}
-
-
-:::
-::::
 
 # Remédiations
 
