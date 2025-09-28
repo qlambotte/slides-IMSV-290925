@@ -1,0 +1,477 @@
+---
+title: "Introduction mathématique aux sciences de la vie"
+subtitle: "Séance d'exercices du 29/09/25"
+lang: fr
+format: 
+ revealjs:
+      theme: [default, clean.scss]
+
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      
+---
+::: {.content-hidden}
+
+
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\nv}[1]{\lVert\overrightarrow{#1}\rVert}
+
+:::
+
+# Remédiations
+
+## Cette semaine:
+
+1. Mardi 30: séance Q/R pour les PHARMA et BIOMED, sur les matières scientifiques.
+
+2. Mercredi 1: séance thématique sur les prérequis pour les BIOMED.
+
+# Correction de la préparation
+
+## 1.3) A
+
+**Enoncé:** Un arc de cercle possède un angle au centre de $80^\circ$ et un rayon de $4,0$m. Que vaut la longueur de cet arc?
+
+**Réponse:** Soit vous appliquez la formule vue à la séance précédente, soit vous appliquez une règle de trois.
+
+$360^\circ$ correspond à une longuer de $8\pi$m. Donc puisque $80=\dfrac{2}{9}360$, la longueur recherchée est 
+
+$$
+\dfrac{2}{9}8\pi=\dfrac{16}{9}\pi\text{m}
+$$
+
+## 1.3) B
+
+**Enoncé:** Un secteur circulaire ayant un angle au centre de $140^\circ$ a été découpé dans une tôle d'acier. Le rayon de ce secteur est de $75,0$cm. Quelle est la surface de ce secteur?
+
+**Réponse:** Le même raisonnement est d'application ici. La réponse finale est: 
+
+$$
+\dfrac{7}{18}75^2\pi=\dfrac{4378}{2}\pi\text{cm}^2
+$$
+
+## 1.4) A
+**Enoncé:** Déterminez la hauteur d'un arbre vertical dont l'ombre sur un sol horizontal s'allonge de $12,00$m lorsque le soleil passe de $52^\circ$ à $30^\circ$ au-dessus de l'horizon.
+
+**Réponse:** On visualise d'abord:
+
+![](figures/fig1.svg){fig-align="center" width=60%}
+
+## On complète la figure, on nomme
+
+![](figures/fig2.svg){fig-align="center" width=100%}
+
+## Résolution 1: via la loi des sinus
+
+![](figures/fig2.svg){fig-align="center" width=40%}
+
+1. On trouve $[BC]$ avec la loi des sinus:
+
+$$
+\frac{[BC]}{\sin(30)}=\frac{[CD]}{\sin{22}}
+$$
+
+Donc $[BC]=\dfrac{[CD]\sin(30)}{\sin{22}}=\dfrac{12\dfrac{1}{2}}{\sin(22)}=\dfrac{6}{\sin(22)}\simeq 16,0168$
+
+## Résolution 1: via la loi des sinus
+
+![](figures/fig2.svg){fig-align="center" width=40%}
+
+1. On trouve $h$ avec SOHCAHTOA:
+
+Dans le triangle rectangle $ABC$, $\cos(38)=\dfrac{h}{[BC]}$.
+
+
+Donc $h=\cos(38)[BC]=\dfrac{6\cos(38)}{\sin(22)}\simeq 12,31$ m.
+
+## Résolution 2: via SOHCAHTOA
+
+![](figures/fig2.svg){fig-align="center" width=40%}
+
+1. Dans $ABC$, $\tan(38)=\dfrac{[AC]}{h}$. Donc $[AC]=h{\tan(38)}$
+
+2. Dans $ABD$, $\tan(60)=\dfrac{[AC]+12}{h}$. Donc $[AC]+12=h{\tan(60)}$
+
+Donc $12=[AC]+12-[AC]=h{\tan(60)}-{h}{\tan(38)}$.
+
+Donc $h=\dfrac{12}{\tan(60)-\tan(38)}\simeq 12,31$ m.
+
+## 1.5) C 1)
+
+**Enoncé:** Résous: ${2\sin(3x) -\sqrt{2}=0}$.
+
+**Réponse:**  ($k\in\mathbb{Z}$)
+$$
+\begin{align*}
+2\sin(3x) -\sqrt{2}=0 &\Leftrightarrow& 2\sin(3x) =\sqrt{2}\\
+&\Leftrightarrow& \sin(3x) =\frac{\sqrt{2}}{2}\\
+&\Leftrightarrow& 3x=\dfrac{\pi}{4}+2k\pi\text{ ou }3x=\dfrac{3\pi}{4}+2k\pi\\
+&\Leftrightarrow& x=\dfrac{\pi}{12}+\frac{2k\pi}{3}\text{ ou }3x=\dfrac{\pi}{4}+\frac{2k\pi}{3}
+\end{align*}
+$$
+
+Donc $S=\left\{\dfrac{\pi}{12}+\dfrac{2k\pi}{3}\left.,\dfrac{\pi}{4}+\dfrac{2k\pi}{3}\right|k\in\mathbb{Z}\right\}$
+
+## 2.1 A) 3 Résous: ${\frac{3x-5}{2x+1} = 0}$.
+
+**Réponse:** 
+
+1. On commence par les conditions d'existence (C.E.): $2x+1\neq 0$, ce qui revient à dire $x\neq -1/2$
+2. On résout l'équation: une fraction est nulle lorsque son numérateur est nul et son dénominateur non nul. Donc, sous la C.E.:
+$$
+\begin{align*}
+ \frac{3x-5}{2x+1} = 0 &\Leftrightarrow&  {3x-5} = 0\\
+ &\Leftrightarrow& x=\frac{5}{3}
+\end{align*}
+$$
+
+Donc, $S=\left\{\dfrac{5}{3}\right\}$.
+
+## 2.1 B) 4
+
+**Enoncé:** Résous: ${(4x-16)(5x+1) < 0}$.
+
+**Réponse:** 
+
+1. On dresse le tableau de signes du membre de gauche:
+
+![](figures/fig3.svg){fig-align="center" width=100%}
+
+2. Sur base du TDS, on résout l'équation: (on y cherche les $-$)
+
+$S=\left]\dfrac{-1}{5};4\right[$
+
+## 2.1 C) 4
+
+**Enoncé:** Résous:  ${2x^2-7=4x}$
+
+**Réponse:** 
+$$
+\begin{align*}
+2x^2-7=4x  &\Leftrightarrow&  2x^2-7-4x=0\\
+&\Leftrightarrow& 2x^2-4x-7=0
+\end{align*}
+$$
+
+On a $\Delta=(-4)^2-4\cdot 2\cdot (-7)=16+56=72=2\cdot 36$.
+
+Donc l'équation a deux solutions: 
+$$
+x_{1,2}=\dfrac{-(-4)\pm\sqrt{72}}{2\cdot 2}=\dfrac{4\pm 6\sqrt{2}}{4}=1\pm\dfrac{3\sqrt{2}}{2}.
+$$
+
+Donc, $S=\left\{1\pm\dfrac{3\sqrt{2}}{2}\right\}$.
+
+## 2.2 A) 2
+
+**Enoncé:** Résous: 
+ ${\begin{cases}
+3x+4y=19\\
+-6x+y =-2
+\end{cases} }$
+
+**Réponse:** Ici je propose la résolution par élimination de Gauss (au lieu de la méthode de substitution)
+$$
+\begin{align*}
+ {\begin{cases}
+3x+4y=19\\
+-6x+y =-2
+\end{cases} } &\Leftrightarrow&  {\begin{cases}
+-6x-8y=-38\\
+-6x+y =-2
+\end{cases} }
+\\
+&\Leftrightarrow&  {\begin{cases}
+-6x-8y=-38\\
+0x+9y =36
+\end{cases} }\\
+&\Leftrightarrow&  {\begin{cases}
+-6x-8y=-38\\
+y =4
+\end{cases} }\\
+&\Leftrightarrow&  {\begin{cases}
+-6x-32=-38\\
+y =4
+\end{cases} }
+\end{align*}
+$$
+
+##
+$$
+\begin{align*}
+ {\begin{cases}
+3x+4y=19\\
+-6x+y =-2
+\end{cases} } &\Leftrightarrow&  {\begin{cases}
+-6x-8y=-38\\
+-6x+y =-2
+\end{cases} }
+\\
+... && ...\\
+&\Leftrightarrow&  {\begin{cases}
+-6x-32=-38\\
+y =4
+\end{cases} }\\
+&\Leftrightarrow&  {\begin{cases}
+x=1\\
+y =4
+\end{cases} }
+\end{align*}
+$$
+Donc $S=\{(1,4)\}$
+
+# Les vecteurs
+
+## Rappels
+
+**Définition** Un vecteur est un segment orienté (= une flèche qui relie deux points). 
+
+Etant donnés deux points $A$ et $B$, on note $\overrightarrow{AB}$ le vecteur allant de $A$ vers $B$. Le point $A$ est *l'origine* et le point $B$ est *l'extrémité*
+
+Un vecteur est **nul** s'il est de la forme $\overrightarrow{AA}$.
+
+## Caractéristiques d'un vecteur
+Un vecteur non nul $\overrightarrow{AB}$ est caractérisé par:
+
+1. sa direction: celle de la droite $AB$ 
+2. son sens: de $A$ vers $B$
+3. sa norme: la longueur du segment $[AB]$.
+
+On dira que deux vecteurs non nuls sont **égaux** s'ils ont
+
+1. la même direction: visuellement, ils sont parallèles
+2. le même sens: les flèches ont le même sens
+3. la même normes: les segments sont de même longueur
+
+## Composantes
+
+Etant donnés $A=(x_A,y_A)$ et $B=(x_B,y_B)$ les composantes de $\overrightarrow{AB}$ sont:
+
+$$
+\overrightarrow{AB}=(x_B-x_A,y_B-y_A).
+$$
+
+## 1.1 Opérations sur les vecteurs
+
+## Rappels
+
+La somme de deux vecteurs $\overrightarrow{u}=(u_1,u_2)$ et $\overrightarrow{v}=(v_1,v_2)$ se fait
+
+1. analytiquement (avec les composantes): on additionne les composantes entre elles: $\overrightarrow{u}+\overrightarrow{v}=(u_1+v_1,u_2+v_2)$
+
+##
+
+2. géométriquement (visuellement):
+
+:::: {.columns}
+
+::: {.column width="60%"}
+Loi de Chasle
+
+
+:::
+
+::: {.column width="40%"}
+Loi du parallélogramme
+
+
+:::
+::::
+
+![](figures/fig10.svg){fig-align="center" width=100%}
+
+
+## Multiple
+
+Multiplier un vecteur non nul $\overrightarrow{u}=(u_1,u_2)$ par un réel non nul $a$ revient à construire un vecteur $a\overrightarrow{u}$ dont les caractéristiques sont les suivantes:
+
+1. direction: la même que $\overrightarrow{u}$
+
+2. sens: le même que $\overrightarrow{u}$ si $a>0$ et l'opposé si $a<0$
+
+3. norme: $|a|\lVert\overrightarrow{u}\rVert$.
+
+De plus, $0\overrightarrow{u}=\overrightarrow{0}$ et $a\overrightarrow{0}=\overrightarrow{0}$.
+
+Analytiquement $a\overrightarrow{u}=(au_1,au_2)$
+
+## Exercice A)
+
+Construisez un représentant de la somme des vecteurs ($\vect{u}$, $\vect{v}$, $\vect{w}$ et $\vect{t}$) dessinés sur les quadrillages donnés.
+
+![](figures/1.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Construisez un représentant de la somme des vecteurs ($\vect{u}$, $\vect{v}$, $\vect{w}$ et $\vect{t}$) dessinés sur les quadrillages donnés.
+
+![](figures/2.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Construisez un représentant de la somme des vecteurs ($\vect{u}$, $\vect{v}$, $\vect{w}$ et $\vect{t}$) dessinés sur les quadrillages donnés.
+
+![](figures/3.png){fig-align="center" width=100%}
+
+## Exercice B)
+
+ Soient $A$, $B$ et $C$ trois points du plan muni d'un repère orthonormé.  Déterminez les composantes des vecteurs $\vect{AB}$, $\vect{AC}$ et $\vect{BC}$ ainsi que leurs normes si 
+
+- $A=(2;1)$, $B=(5;3)$ et $C=(1;4)$ 
+
+## Exercice B)
+
+ Soient $A$, $B$ et $C$ trois points du plan muni d'un repère orthonormé.  Déterminez les composantes des vecteurs $\vect{AB}$, $\vect{AC}$ et $\vect{BC}$ ainsi que leurs normes si 
+
+
+- $A=(2;0;1)$, $B=(-1;5;3)$ et $C=(7;1;4)$
+
+
+## Exercice C)
+
+Simplifiez les expressions suivantes au maximum (les lettres représentent des points du plan ou de l'espace) :
+
+-  $\vect{AB} + \vect{BC} + \vect{CD}$
+
+
+## Exercice D)
+
+Considérons $A=(-2;1)$, $B=(5;2)$, $C=(4;2)$, $D=(-3;-1)$ et $E=(0;2)$. Déterminez les composantes des vecteurs suivants :
+
+- $2 \vect{AB}$
+- $2 \vect{CB} + 3 \vect{AB}$
+- $3 \vect{BD} -2 \vect{AE} + \frac{1}{2}\vect{CA}$
+
+## Exercice E)
+
+Considérons le plan muni d'un repère. Calculez les composantes de $\vect{u} + \vect{v}$ et $a \vect{u}$  lorsque
+
+-  $\vect{u} = (3;0;2)$, $\vect{v} = (-2;1;4)$ et $a = -3$
+
+## Exercice F)
+
+Considérons le plan ou l'espace muni d'un repère. Déterminez le milieu des segments $[AB]$ si
+
+- $A=(-1;1)$ et $B=(2;3)$
+
+## 1.2 Produits scalaire et vectoriel
+
+## Rappels
+
+Soit $\vect{u}$ et $\vect{v}$ deux vecteurs:
+
+- Produit scalaire: $\vect{u}\cdot\vect{v}=\nv{u}\nv{v}\cos(\theta)$, où $\theta$ est l'angle entre les deux vecteurs. (Définition indépendante du nombre de composantes)
+- En 2D: $\vect{u}\cdot\vect{v}=u_1v_1+u_2v_2$, où $\vect{u}=(u_1,u_2)$ et $\vect{v}=(v_1,v_2)$.
+- En 2D: $\nv{u}=\sqrt{u_1^2+u_2^2}$.
+- En 3D: $\vect{u}\cdot\vect{v}=u_1v_1+u_2v_2+u_3v_3$, où $\vect{u}=(u_1,u_2,u_3)$ et $\vect{v}=(v_1,v_2,v_3)$.
+- En 3D: $\nv{u}=\sqrt{u_1^2+u_2^2+u_3^2}$.
+- Ces liens entre composantes, norme et angle permettent de résoudre plein d'exercices.
+
+
+## Exercice A)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs du plan ou de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Calculez $\vect{u} \cdot \vect{v}$ si
+
+- $\| \vect{u} \| = 3$, $\|\vect{v} \| = 5$ et $\theta = 60^\circ$
+
+## Exercice A)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs du plan ou de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Calculez $\vect{u} \cdot \vect{v}$ si
+
+- ${\| \vect{u} \| = \frac{1}{\sqrt{3}}}$, ${\| \vect{v} \|= 3}$ et ${\theta = \frac{5\pi}{6}}$
+
+## Exercice B)
+
+Travail à domicile: calculez les composantes puis appliquez les formules.
+
+## Rappel: produit vectoriel
+
+Soit $\vect{u}=(u_1,u_2,u_3)$ et $\vect{v}=(v_1,v_2,v_3)$. Le produit vectoriel de ces deux vecteurs $\vect{u}\wedge \vect{v}$ a les composantes suivantes:
+
+$$
+\vect{u}\wedge \vect{v} =  \begin{vmatrix}
+\vect{i} & \vect{j} & \vect{k} \\
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3 
+\end{vmatrix}  
+$$
+
+Ce vecteur est perpendiculaire à $\vect{u}$ et $\vect{v}$ et est de norme $\| \vect{u}\wedge \vect{v} \|=\nv{u}\nv{v}\sin(\theta)$. Son sens est donné par la règle de la main droite.
+
+## Rappel: produit vectoriel
+
+![](figures/md.svg){fig-align="left" width=100%}
+
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- $\vect{u} =(2;1;1)$ et ${\vect{v} =(1;2;1) }$
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(2;-1;2) }$ et ${\vect{v} =(-3;7;1) }$
+
+## Exercice D)
+
+Considérons les vecteurs $\vect{u}$ et $\vect{v}$ tels que $\|\vect{u} \| = 5$ , $\|\vect{v} \| = 2$ et $\vect{u} \cdot \vect{v} = 10$. Montrez que la norme du vecteur $\vect{w_1}  = 2\vect{u}+3\vect{v}$ est égale à $16$  et que celle du $\vect{w_2}=2\vect{u} -3\vect{v}$ est égale à $4$
+
+## Exercice D)
+
+
+## Exercice E)
+
+Considérons les vecteurs $\vect{u}$ et $\vect{v}$ tels que $\|\vect{u} \| = 1$ , $\|\vect{v} \| = 3$ et $\vect{u} \cdot \vect{v} = -2$. Montrez que la norme du vecteur $\vect{w_1}  = 2\vect{u}+3\vect{v}$ est égale à $\sqrt{61}$  et que celle du $\vect{w_2}=2\vect{u} -3\vect{v}$ est égale à $\sqrt{109}$.
+
+
+
+## Exercice E)
+
+
+## Exercice F)
+
+Exercice supplémentaire
+
+
+## Exercice G)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé. Calculez, via les composantes, $(\vect{u} \land \vect{v}) \cdot \vect{u}$ et $(\vect{u} \land \vect{v}) \cdot \vect{v}$. Qu'en conclure sur le vecteur $\vect{u} \land \vect{v}$ par rapport aux vecteurs $\vect{u}$ et $\vect{v}$?
+
+## 1.3 Décomposition
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/4.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/5.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/6.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/7.png){fig-align="center" width=100%}
+
+
+## Exercice C) 
+
+On donne les vecteurs suivants $\vect{u}=( 73~123~416;146~246~832)$ et $\vect{v}=(-79~035~264;39~517~632)$, deux vecteurs du plan muni d'un repère orthonormé.
+\textbf{Sans} utiliser de calculatrice, démontrez que les vecteurs $\vect{u}$ et $\vect{v}$ sont orthogonaux.

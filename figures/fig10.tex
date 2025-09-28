@@ -1,0 +1,44 @@
+\documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{amsmath}
+\usepackage{tkz-tab}
+\usepackage{tkz-euclide}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+\begin{tikzpicture}
+  \tikzset{vector style/.style={>={Latex[scale=2]},->}}
+  \tkzDefPoints{0/0/A,2/3/B,5/-2/C}
+  \tkzDrawPoints(A,B,C)
+  \tkzLabelPoints[left](A)
+  \tkzLabelPoints[above](B)
+  \tkzLabelPoints[below right](C)
+  \tkzDrawSegment[vector style](A,B)
+  \tkzDrawSegment[vector style](B,C)
+  \tkzDrawSegment[vector style](A,C)
+  \tkzLabelSegment[below left,
+  sloped](A,C){$\overrightarrow{AB}+\overrightarrow{BC}$}
+  \begin{scope}[xshift=10cm]
+  \tkzDefPoints{0/0/A,2/3/B,9/-1/C, 7/-4/D}
+  \tkzDrawPoints(A,B,C,D)
+  \tkzLabelPoints[left](A)
+  \tkzLabelPoints[above](B)
+  \tkzLabelPoints[right](C)
+  \tkzLabelPoints[below right](D)
+  \tkzDrawSegment[vector style](A,B)
+  \tkzDrawSegment[vector style](A,D)
+  \tkzDrawSegment[vector style](B,C)
+  \tkzDrawSegment[vector style](D,C)
+  \tkzDrawSegment[vector style](A,C)
+  \tkzLabelSegment[below, sloped](A,C){$\overrightarrow{u}+\overrightarrow{v}$}
+  \tkzLabelSegment[above, sloped](A,B){$\overrightarrow{u}$}
+  \tkzLabelSegment[below, sloped](D,C){$\overrightarrow{u}$}
+  \tkzLabelSegment[above, sloped](B,C){$\overrightarrow{v}$}
+  \tkzLabelSegment[below, sloped](A,D){$\overrightarrow{v}$}
+\end{scope}
+
+\end{tikzpicture}
+\end{document}

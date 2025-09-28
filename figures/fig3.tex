@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tkz-tab}
+
+\begin{document}
+
+
+\begin{tikzpicture}
+\tkzTabInit[lgt=2,espcl=2]
+{$x$/1, $4x-16$/1, $5x+1$/1, Produit/1.5}
+{$-\infty$, $-\frac{1}{5}$, $4$, $+\infty$}
+
+\tkzTabLine{,-,t,-,z,+,}
+\tkzTabLine{,-,z,+,t,+,}
+\tkzTabLine{,+,z,-,z,+,}
+\end{tikzpicture}
+
+
+\end{document}
