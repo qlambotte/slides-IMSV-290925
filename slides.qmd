@@ -22,6 +22,24 @@ format:
 
 :::
 
+##  Liens:
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](figures/qr1.png){fig-align="center" width=100%}
+
+
+:::
+
+::: {.column width="40%"}
+![](figures/qr1.png){fig-align="center" width=100%}
+
+
+:::
+::::
+
 # Remédiations
 
 ## Cette semaine:
