@@ -4,4 +4,4 @@ stylesheet: index.css
 config:
   tldreveal:
     isDarkMode: false
-    snapshotUrl: {url: slides.tldrev}
+    snapshotUrl: {url: assets/slides.tldrev}
