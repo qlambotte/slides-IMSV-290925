@@ -25,7 +25,7 @@
     "href": "slides.html#b",
     "title": "Introduction mathématique aux sciences de la vie",
     "section": "1.3) B",
-    "text": "1.3) B\nEnoncé: Un secteur circulaire ayant un angle au centre de \\(140^\\circ\\) a été découpé dans une tôle d’acier. Le rayon de ce secteur est de \\(75,0\\)cm. Quelle est la surface de ce secteur?\nRéponse: Le même raisonnement est d’application ici. La réponse finale est:\n\\[\n\\dfrac{7}{18}75^2\\pi=\\dfrac{4378}{2}\\pi\\text{cm}^2\n\\]"
+    "text": "1.3) B\nEnoncé: Un secteur circulaire ayant un angle au centre de \\(140^\\circ\\) a été découpé dans une tôle d’acier. Le rayon de ce secteur est de \\(75,0\\)cm. Quelle est la surface de ce secteur?\nRéponse: Le même raisonnement est d’application ici. La réponse finale est:\n\\[\n\\dfrac{7}{18}75^2\\pi=\\dfrac{4375}{2}\\pi\\text{cm}^2\n\\]"
   },
   {
     "objectID": "slides.html#a-1",
@@ -53,14 +53,14 @@
     "href": "slides.html#résolution-1-via-la-loi-des-sinus-1",
     "title": "Introduction mathématique aux sciences de la vie",
     "section": "Résolution 1: via la loi des sinus",
-    "text": "Résolution 1: via la loi des sinus\n\n\nOn trouve \\(h\\) avec SOHCAHTOA:\n\nDans le triangle rectangle \\(ABC\\), \\(\\cos(38)=\\dfrac{h}{[BC]}\\).\nDonc \\(h=\\cos(38)[BC]=\\dfrac{6\\cos(38)}{\\sin(22)}\\simeq 12,31\\) m."
+    "text": "Résolution 1: via la loi des sinus\n\n\nOn trouve \\(h\\) avec SOHCAHTOA:\n\nDans le triangle rectangle \\(ABC\\), \\(\\cos(38)=\\dfrac{h}{[BC]}\\).\nDonc \\(h=\\cos(38)[BC]=\\dfrac{6\\cos(38)}{\\sin(22)}\\simeq 12,62\\) m."
   },
   {
     "objectID": "slides.html#résolution-2-via-sohcahtoa",
     "href": "slides.html#résolution-2-via-sohcahtoa",
     "title": "Introduction mathématique aux sciences de la vie",
     "section": "Résolution 2: via SOHCAHTOA",
-    "text": "Résolution 2: via SOHCAHTOA\n\n\nDans \\(ABC\\), \\(\\tan(38)=\\dfrac{[AC]}{h}\\). Donc \\([AC]=h{\\tan(38)}\\)\nDans \\(ABD\\), \\(\\tan(60)=\\dfrac{[AC]+12}{h}\\). Donc \\([AC]+12=h{\\tan(60)}\\)\n\nDonc \\(12=[AC]+12-[AC]=h{\\tan(60)}-{h}{\\tan(38)}\\).\nDonc \\(h=\\dfrac{12}{\\tan(60)-\\tan(38)}\\simeq 12,31\\) m."
+    "text": "Résolution 2: via SOHCAHTOA\n\n\nDans \\(ABC\\), \\(\\tan(38)=\\dfrac{[AC]}{h}\\). Donc \\([AC]=h{\\tan(38)}\\)\nDans \\(ABD\\), \\(\\tan(60)=\\dfrac{[AC]+12}{h}\\). Donc \\([AC]+12=h{\\tan(60)}\\)\n\nDonc \\(12=[AC]+12-[AC]=h{\\tan(60)}-{h}{\\tan(38)}\\).\nDonc \\(h=\\dfrac{12}{\\tan(60)-\\tan(38)}\\simeq 12,62\\) m."
   },
   {
     "objectID": "slides.html#c-1",
